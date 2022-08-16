@@ -1325,7 +1325,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 376.5, y: 0}
+  m_AnchoredPosition: {x: 367.5, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1227984076
@@ -1375,7 +1375,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "    Population          Fitness Rank Avg(X.x)\n[0,0,0,0,0,0,0,0]\t              
+  m_Text: "Population TOP 10     Fitness Rank Avg(X.x)\n[0,0,0,0,0,0,0,0]\t              
     X\n[0,0,0,0,0,0,0,0]\t               X\n[0,0,0,0,0,0,0,0]\t               X\n[0,0,0,0,0,0,0,0]\t              
     X\n[0,0,0,0,0,0,0,0]\t               X\n[0,0,0,0,0,0,0,0]\t               X\n[0,0,0,0,0,0,0,0]\t              
     X\n[0,0,0,0,0,0,0,0]\t               X\n[0,0,0,0,0,0,0,0]\t               X\n[0,0,0,0,0,0,0,0]\t              

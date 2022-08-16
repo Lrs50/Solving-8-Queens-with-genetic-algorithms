@@ -21,7 +21,7 @@ Simulador de um algoritmo evolutivo resolvendo o problema das 8 Rainhas [Link](h
 - Recombinação: “random-choice-between-parents” crossover
 - Probabilidade de Recombinação: 70%
 - Mutação: troca de genes
-- Probabilidade de Mutação: 40%
+- Probabilidade de Mutação: 50%
 - Seleção de pais: Roleta "equilibrada"
 - Seleção de sobreviventes: Melhores filhos nos lugares dos pais
 - Tamanho da população: 30

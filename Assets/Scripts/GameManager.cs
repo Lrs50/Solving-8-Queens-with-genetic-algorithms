@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     private static int[] validPos;
     DNA[] population;
     DNA[] children;
-    int populationSize = 10;
+    int populationSize = 30;
 
     void Start()
     {
@@ -107,7 +107,7 @@ public class GameManager : MonoBehaviour
     void UpdateData(int generation,int bestCurrentFitness){
         fitnessText.text = $"Collisions: {bestCurrentFitness}";
         genText.text =$"Generation: {generation}";
-        string currentRank = $"    Population          Fitness Rank Avg({System.Math.Round(AvgFitness(),1)})";
+        string currentRank = $"Population TOP 10     Fitness Rank Avg({System.Math.Round(AvgFitness(),1)})";
 
         GFG gg = new GFG();
         List<DNA> population2 = new List<DNA>(population);
